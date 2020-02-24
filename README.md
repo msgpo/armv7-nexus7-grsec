@@ -23,6 +23,12 @@ marlin( Pixel XL)
 - [Android 7.1.1](https://dl.google.com/dl/android/aosp/marlin-nof26v-factory-1dce14a1.zip)
 - [msm-marlin-3.18-nougat](https://android.googlesource.com/kernel/msm/+/android-msm-marlin-3.18-nougat-mr1.3)
 
+coral( Pixel 4 XL)
+* [Android NDK r21](https://dl.google.com/android/repository/android-ndk-r21-linux-x86_64.zip)
+* [Android 10.0.0](https://dl.google.com/dl/android/aosp/coral-qq1b.200205.002-factory-89d84384.zip)
+* [msm-coral-4.14](https://android.googlesource.com/kernel/msm/+/refs/heads/android-msm-coral-4.14-android10-c2f2)
+
+
 Notes: The combination of PXN( inspired by PaX's KERNEXEC), HARDENED_USERCOPY( implemented and ported from PaX/Grsecurity's PAX_USERCOPY partially), RO vdso, DEBUG_RODATA/STRICT_MEMORY_RWX( it originally implemented by PaX's KERNEXEC) and software-based PAN( not strong as PaX's UDEREF) is unlikely to defeat highly customized exploitation( even some exploit vectors, which old dudes forgot already and new dudes never know) but it's strong enough to defeat those easy-to-write exploits used by malwares, which might cause massive affection. 
 
 
